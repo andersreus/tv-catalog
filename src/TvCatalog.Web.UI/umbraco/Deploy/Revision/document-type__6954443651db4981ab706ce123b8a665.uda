@@ -1,0 +1,38 @@
+{
+  "Name": "TV Shows",
+  "Alias": "tVShows",
+  "AllowedTemplates": [],
+  "HistoryCleanup": {},
+  "Icon": "icon-item-arrangement",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "bc3d5fd4-2f34-4980-9285-c94dc7d01fd4",
+      "Name": "Properties",
+      "Alias": "properties",
+      "PropertyTypes": [
+        {
+          "Key": "1442e048-1598-4756-b793-64b0494ab225",
+          "Alias": "showName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "This is the name of the tv show",
+          "Name": "Show name"
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/6954443651db4981ab706ce123b8a665",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "13.1.0"
+}
