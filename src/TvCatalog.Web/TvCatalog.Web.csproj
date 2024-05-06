@@ -10,4 +10,13 @@
     <Folder Include="Models\CoreModels\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="6.0.0" />
+    <PackageReference Include="Umbraco.Cms.Core" Version="13.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TvCatalog.Web.UI\TvCatalog.Web.UI.csproj" />
+  </ItemGroup>
+
 </Project>

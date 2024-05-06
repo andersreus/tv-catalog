@@ -9,7 +9,8 @@ namespace TvCatalog.Web.Services
 {
     public interface ITVmazeService
     {
-        // Simplified naming. Nothing about the implementation
-        IEnumerable<TVmazeModel> GetAll();
+        // Simplified naming, nothing about the implementation.
+        // If the method is Async, suffix the method name with "Async"
+        Task<IEnumerable<TVmazeModel>> GetAllAsync();
     }
 }

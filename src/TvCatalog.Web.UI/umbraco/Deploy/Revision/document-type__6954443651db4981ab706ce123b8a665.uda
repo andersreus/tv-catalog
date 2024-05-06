@@ -1,6 +1,6 @@
 {
-  "Name": "TV Shows",
-  "Alias": "tVShows",
+  "Name": "TV Show",
+  "Alias": "tVShow",
   "AllowedTemplates": [],
   "HistoryCleanup": {},
   "Icon": "icon-item-arrangement",
